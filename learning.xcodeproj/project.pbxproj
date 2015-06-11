@@ -28,7 +28,6 @@
 		2DFF6A871B292A4400D3DF03 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF6A821B292A4400D3DF03 /* LICENSE */; };
 		2DFF6A881B292A4400D3DF03 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A831B292A4400D3DF03 /* README.md */; };
 		2DFF6A8C1B292C8900D3DF03 /* CAAnimation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A8B1B292C8900D3DF03 /* CAAnimation+Blocks.m */; };
-		2DFF6A901B29336B00D3DF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF6A8E1B29336B00D3DF03 /* Main.storyboard */; };
 		2DFF6A931B29339000D3DF03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF6A911B29339000D3DF03 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
@@ -89,7 +88,6 @@
 		2DFF6A831B292A4400D3DF03 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2DFF6A8A1B292C8900D3DF03 /* CAAnimation+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+Blocks.h"; sourceTree = "<group>"; };
 		2DFF6A8B1B292C8900D3DF03 /* CAAnimation+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+Blocks.m"; sourceTree = "<group>"; };
-		2DFF6A8F1B29336B00D3DF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		2DFF6A921B29339000D3DF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -264,7 +262,6 @@
 			isa = PBXGroup;
 			children = (
 				2DFF6A911B29339000D3DF03 /* LaunchScreen.xib */,
-				2DFF6A8E1B29336B00D3DF03 /* Main.storyboard */,
 			);
 			name = Base.lproj;
 			path = learning/Base.lproj;
@@ -351,7 +348,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DFF6A931B29339000D3DF03 /* LaunchScreen.xib in Resources */,
-				2DFF6A901B29336B00D3DF03 /* Main.storyboard in Resources */,
 				2DFF6A871B292A4400D3DF03 /* LICENSE in Resources */,
 				2DFF6A261B2918EC00D3DF03 /* Images.xcassets in Resources */,
 			);
@@ -411,14 +407,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2DFF6A8E1B29336B00D3DF03 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DFF6A8F1B29336B00D3DF03 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2DFF6A911B29339000D3DF03 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -585,6 +573,7 @@
 				2DFF6A3A1B2918EC00D3DF03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DFF6A3B1B2918EC00D3DF03 /* Build configuration list for PBXNativeTarget "learningTests" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +582,7 @@
 				2DFF6A3D1B2918EC00D3DF03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
