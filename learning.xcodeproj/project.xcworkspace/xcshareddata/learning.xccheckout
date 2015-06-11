@@ -6,22 +6,30 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F2B63ABF-EFD1-4182-83B9-2DE0B6B6BACC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1EAC6F4B2B8909C0547136A80C545CCC4CAAEC45</key>
 		<string>gitlab.keyshare.cc:jaxus-ios/keyshare-ios.git</string>
+		<key>75743F81D378296496AB2F31BF4686E89567687D</key>
+		<string>github.com:com314159/learning_iOS_tableView.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>learning.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1EAC6F4B2B8909C0547136A80C545CCC4CAAEC45</key>
-		<string>keyshare-ios/</string>
+		<string>../../../keyshare-ios</string>
+		<key>75743F81D378296496AB2F31BF4686E89567687D</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>gitlab.keyshare.cc:jaxus-ios/keyshare-ios.git</string>
+	<string>github.com:com314159/learning_iOS_tableView.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1EAC6F4B2B8909C0547136A80C545CCC4CAAEC45</string>
+	<string>75743F81D378296496AB2F31BF4686E89567687D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -31,6 +39,14 @@
 			<string>1EAC6F4B2B8909C0547136A80C545CCC4CAAEC45</string>
 			<key>IDESourceControlWCCName</key>
 			<string>keyshare-ios</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>75743F81D378296496AB2F31BF4686E89567687D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>learning</string>
 		</dict>
 	</array>
 </dict>

@@ -23,11 +23,11 @@
 		2DFF6A5D1B2921A600D3DF03 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A5C1B2921A600D3DF03 /* UIImage+Tint.m */; };
 		2DFF6A601B29220D00D3DF03 /* KSLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A5F1B29220D00D3DF03 /* KSLayer.m */; };
 		2DFF6A631B29225100D3DF03 /* CAAnimation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A621B29225100D3DF03 /* CAAnimation+Blocks.m */; };
-		2DFF6A6D1B29258000D3DF03 /* ScrollViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A681B29258000D3DF03 /* ScrollViewFrameAccessor.m */; };
-		2DFF6A6E1B29258000D3DF03 /* ViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A6A1B29258000D3DF03 /* ViewFrameAccessor.m */; };
-		2DFF6A6F1B29258000D3DF03 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF6A6B1B29258000D3DF03 /* LICENSE */; };
-		2DFF6A701B29258000D3DF03 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A6C1B29258000D3DF03 /* README.md */; };
-		2DFF6A751B29275800D3DF03 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A731B29275800D3DF03 /* EXTScope.m */; };
+		2DFF6A841B292A4400D3DF03 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A791B292A4400D3DF03 /* EXTScope.m */; };
+		2DFF6A851B292A4400D3DF03 /* ScrollViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A7F1B292A4400D3DF03 /* ScrollViewFrameAccessor.m */; };
+		2DFF6A861B292A4400D3DF03 /* ViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A811B292A4400D3DF03 /* ViewFrameAccessor.m */; };
+		2DFF6A871B292A4400D3DF03 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF6A821B292A4400D3DF03 /* LICENSE */; };
+		2DFF6A881B292A4400D3DF03 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A831B292A4400D3DF03 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,16 +77,16 @@
 		2DFF6A5F1B29220D00D3DF03 /* KSLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLayer.m; sourceTree = "<group>"; };
 		2DFF6A611B29225100D3DF03 /* CAAnimation+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+Blocks.h"; path = "../../../keyshare-ios/KeyShare/Librarys/UI/SC/SCPullRefresh/CAAnimationBlocks/CAAnimation+Blocks.h"; sourceTree = "<group>"; };
 		2DFF6A621B29225100D3DF03 /* CAAnimation+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+Blocks.m"; path = "../../../keyshare-ios/KeyShare/Librarys/UI/SC/SCPullRefresh/CAAnimationBlocks/CAAnimation+Blocks.m"; sourceTree = "<group>"; };
-		2DFF6A661B29258000D3DF03 /* FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAccessor.h; sourceTree = "<group>"; };
-		2DFF6A671B29258000D3DF03 /* ScrollViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewFrameAccessor.h; sourceTree = "<group>"; };
-		2DFF6A681B29258000D3DF03 /* ScrollViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewFrameAccessor.m; sourceTree = "<group>"; };
-		2DFF6A691B29258000D3DF03 /* ViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFrameAccessor.h; sourceTree = "<group>"; };
-		2DFF6A6A1B29258000D3DF03 /* ViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFrameAccessor.m; sourceTree = "<group>"; };
-		2DFF6A6B1B29258000D3DF03 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2DFF6A6C1B29258000D3DF03 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2DFF6A721B29275800D3DF03 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
-		2DFF6A731B29275800D3DF03 /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
-		2DFF6A741B29275800D3DF03 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		2DFF6A781B292A4400D3DF03 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		2DFF6A791B292A4400D3DF03 /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		2DFF6A7A1B292A4400D3DF03 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		2DFF6A7D1B292A4400D3DF03 /* FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAccessor.h; sourceTree = "<group>"; };
+		2DFF6A7E1B292A4400D3DF03 /* ScrollViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewFrameAccessor.h; sourceTree = "<group>"; };
+		2DFF6A7F1B292A4400D3DF03 /* ScrollViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewFrameAccessor.m; sourceTree = "<group>"; };
+		2DFF6A801B292A4400D3DF03 /* ViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFrameAccessor.h; sourceTree = "<group>"; };
+		2DFF6A811B292A4400D3DF03 /* ViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFrameAccessor.m; sourceTree = "<group>"; };
+		2DFF6A821B292A4400D3DF03 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2DFF6A831B292A4400D3DF03 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,7 @@
 		2DFF6A0C1B2918EC00D3DF03 = {
 			isa = PBXGroup;
 			children = (
-				2DFF6A711B29275800D3DF03 /* EXTScope */,
-				2DFF6A641B29258000D3DF03 /* FrameAccessor */,
+				2DFF6A761B292A4400D3DF03 /* Vendors */,
 				2DFF6A171B2918EC00D3DF03 /* learning */,
 				2DFF6A311B2918EC00D3DF03 /* learningTests */,
 				2DFF6A161B2918EC00D3DF03 /* Products */,
@@ -207,36 +206,45 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		2DFF6A641B29258000D3DF03 /* FrameAccessor */ = {
+		2DFF6A761B292A4400D3DF03 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				2DFF6A651B29258000D3DF03 /* FrameAccessor */,
-				2DFF6A6B1B29258000D3DF03 /* LICENSE */,
-				2DFF6A6C1B29258000D3DF03 /* README.md */,
+				2DFF6A771B292A4400D3DF03 /* EXTScope */,
+				2DFF6A7B1B292A4400D3DF03 /* FrameAccessor */,
 			);
-			path = FrameAccessor;
+			path = Vendors;
 			sourceTree = "<group>";
 		};
-		2DFF6A651B29258000D3DF03 /* FrameAccessor */ = {
+		2DFF6A771B292A4400D3DF03 /* EXTScope */ = {
 			isa = PBXGroup;
 			children = (
-				2DFF6A661B29258000D3DF03 /* FrameAccessor.h */,
-				2DFF6A671B29258000D3DF03 /* ScrollViewFrameAccessor.h */,
-				2DFF6A681B29258000D3DF03 /* ScrollViewFrameAccessor.m */,
-				2DFF6A691B29258000D3DF03 /* ViewFrameAccessor.h */,
-				2DFF6A6A1B29258000D3DF03 /* ViewFrameAccessor.m */,
-			);
-			path = FrameAccessor;
-			sourceTree = "<group>";
-		};
-		2DFF6A711B29275800D3DF03 /* EXTScope */ = {
-			isa = PBXGroup;
-			children = (
-				2DFF6A721B29275800D3DF03 /* EXTScope.h */,
-				2DFF6A731B29275800D3DF03 /* EXTScope.m */,
-				2DFF6A741B29275800D3DF03 /* metamacros.h */,
+				2DFF6A781B292A4400D3DF03 /* EXTScope.h */,
+				2DFF6A791B292A4400D3DF03 /* EXTScope.m */,
+				2DFF6A7A1B292A4400D3DF03 /* metamacros.h */,
 			);
 			path = EXTScope;
+			sourceTree = "<group>";
+		};
+		2DFF6A7B1B292A4400D3DF03 /* FrameAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF6A7C1B292A4400D3DF03 /* FrameAccessor */,
+				2DFF6A821B292A4400D3DF03 /* LICENSE */,
+				2DFF6A831B292A4400D3DF03 /* README.md */,
+			);
+			path = FrameAccessor;
+			sourceTree = "<group>";
+		};
+		2DFF6A7C1B292A4400D3DF03 /* FrameAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF6A7D1B292A4400D3DF03 /* FrameAccessor.h */,
+				2DFF6A7E1B292A4400D3DF03 /* ScrollViewFrameAccessor.h */,
+				2DFF6A7F1B292A4400D3DF03 /* ScrollViewFrameAccessor.m */,
+				2DFF6A801B292A4400D3DF03 /* ViewFrameAccessor.h */,
+				2DFF6A811B292A4400D3DF03 /* ViewFrameAccessor.m */,
+			);
+			path = FrameAccessor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,7 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DFF6A6F1B29258000D3DF03 /* LICENSE in Resources */,
+				2DFF6A871B292A4400D3DF03 /* LICENSE in Resources */,
 				2DFF6A261B2918EC00D3DF03 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,22 +346,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFF6A841B292A4400D3DF03 /* EXTScope.m in Sources */,
 				2DFF6A5D1B2921A600D3DF03 /* UIImage+Tint.m in Sources */,
 				2DFF6A4A1B291F2B00D3DF03 /* KSBaseTableViewCell.m in Sources */,
+				2DFF6A861B292A4400D3DF03 /* ViewFrameAccessor.m in Sources */,
 				2DFF6A601B29220D00D3DF03 /* KSLayer.m in Sources */,
 				2DFF6A211B2918EC00D3DF03 /* ViewController.m in Sources */,
+				2DFF6A881B292A4400D3DF03 /* README.md in Sources */,
 				2DFF6A1E1B2918EC00D3DF03 /* AppDelegate.m in Sources */,
 				2DFF6A501B291FDF00D3DF03 /* KSCourseRateView.m in Sources */,
 				2DFF6A1B1B2918EC00D3DF03 /* main.m in Sources */,
-				2DFF6A6E1B29258000D3DF03 /* ViewFrameAccessor.m in Sources */,
 				2DFF6A561B29200A00D3DF03 /* KSImageRatio.m in Sources */,
 				2DFF6A631B29225100D3DF03 /* CAAnimation+Blocks.m in Sources */,
 				2DFF6A4D1B291FC000D3DF03 /* LPLabel.m in Sources */,
-				2DFF6A701B29258000D3DF03 /* README.md in Sources */,
-				2DFF6A751B29275800D3DF03 /* EXTScope.m in Sources */,
 				2DFF6A591B29201D00D3DF03 /* KSLabelHelper.m in Sources */,
+				2DFF6A851B292A4400D3DF03 /* ScrollViewFrameAccessor.m in Sources */,
 				2DFF6A471B291F1900D3DF03 /* KSCourseListCell.m in Sources */,
-				2DFF6A6D1B29258000D3DF03 /* ScrollViewFrameAccessor.m in Sources */,
 				2DFF6A531B29200000D3DF03 /* KSStringUtil.m in Sources */,
 				2DFF6A411B291A2500D3DF03 /* KSHelper.m in Sources */,
 			);
