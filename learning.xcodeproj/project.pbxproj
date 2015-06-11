@@ -22,12 +22,12 @@
 		2DFF6A591B29201D00D3DF03 /* KSLabelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A581B29201D00D3DF03 /* KSLabelHelper.m */; };
 		2DFF6A5D1B2921A600D3DF03 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A5C1B2921A600D3DF03 /* UIImage+Tint.m */; };
 		2DFF6A601B29220D00D3DF03 /* KSLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A5F1B29220D00D3DF03 /* KSLayer.m */; };
-		2DFF6A631B29225100D3DF03 /* CAAnimation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A621B29225100D3DF03 /* CAAnimation+Blocks.m */; };
 		2DFF6A841B292A4400D3DF03 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A791B292A4400D3DF03 /* EXTScope.m */; };
 		2DFF6A851B292A4400D3DF03 /* ScrollViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A7F1B292A4400D3DF03 /* ScrollViewFrameAccessor.m */; };
 		2DFF6A861B292A4400D3DF03 /* ViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A811B292A4400D3DF03 /* ViewFrameAccessor.m */; };
 		2DFF6A871B292A4400D3DF03 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF6A821B292A4400D3DF03 /* LICENSE */; };
 		2DFF6A881B292A4400D3DF03 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A831B292A4400D3DF03 /* README.md */; };
+		2DFF6A8C1B292C8900D3DF03 /* CAAnimation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF6A8B1B292C8900D3DF03 /* CAAnimation+Blocks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,8 +75,6 @@
 		2DFF6A5C1B2921A600D3DF03 /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
 		2DFF6A5E1B29220D00D3DF03 /* KSLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLayer.h; sourceTree = "<group>"; };
 		2DFF6A5F1B29220D00D3DF03 /* KSLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLayer.m; sourceTree = "<group>"; };
-		2DFF6A611B29225100D3DF03 /* CAAnimation+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+Blocks.h"; path = "../../../keyshare-ios/KeyShare/Librarys/UI/SC/SCPullRefresh/CAAnimationBlocks/CAAnimation+Blocks.h"; sourceTree = "<group>"; };
-		2DFF6A621B29225100D3DF03 /* CAAnimation+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+Blocks.m"; path = "../../../keyshare-ios/KeyShare/Librarys/UI/SC/SCPullRefresh/CAAnimationBlocks/CAAnimation+Blocks.m"; sourceTree = "<group>"; };
 		2DFF6A781B292A4400D3DF03 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
 		2DFF6A791B292A4400D3DF03 /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
 		2DFF6A7A1B292A4400D3DF03 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
@@ -87,6 +85,8 @@
 		2DFF6A811B292A4400D3DF03 /* ViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFrameAccessor.m; sourceTree = "<group>"; };
 		2DFF6A821B292A4400D3DF03 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2DFF6A831B292A4400D3DF03 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2DFF6A8A1B292C8900D3DF03 /* CAAnimation+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+Blocks.h"; sourceTree = "<group>"; };
+		2DFF6A8B1B292C8900D3DF03 /* CAAnimation+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+Blocks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,8 +188,6 @@
 		2DFF6A441B291EF200D3DF03 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2DFF6A611B29225100D3DF03 /* CAAnimation+Blocks.h */,
-				2DFF6A621B29225100D3DF03 /* CAAnimation+Blocks.m */,
 				2DFF6A5E1B29220D00D3DF03 /* KSLayer.h */,
 				2DFF6A5F1B29220D00D3DF03 /* KSLayer.m */,
 				2DFF6A5B1B2921A600D3DF03 /* UIImage+Tint.h */,
@@ -209,6 +207,7 @@
 		2DFF6A761B292A4400D3DF03 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				2DFF6A891B292C8900D3DF03 /* CAAnimationBlocks */,
 				2DFF6A771B292A4400D3DF03 /* EXTScope */,
 				2DFF6A7B1B292A4400D3DF03 /* FrameAccessor */,
 			);
@@ -245,6 +244,15 @@
 				2DFF6A811B292A4400D3DF03 /* ViewFrameAccessor.m */,
 			);
 			path = FrameAccessor;
+			sourceTree = "<group>";
+		};
+		2DFF6A891B292C8900D3DF03 /* CAAnimationBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF6A8A1B292C8900D3DF03 /* CAAnimation+Blocks.h */,
+				2DFF6A8B1B292C8900D3DF03 /* CAAnimation+Blocks.m */,
+			);
+			path = CAAnimationBlocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,10 +365,10 @@
 				2DFF6A501B291FDF00D3DF03 /* KSCourseRateView.m in Sources */,
 				2DFF6A1B1B2918EC00D3DF03 /* main.m in Sources */,
 				2DFF6A561B29200A00D3DF03 /* KSImageRatio.m in Sources */,
-				2DFF6A631B29225100D3DF03 /* CAAnimation+Blocks.m in Sources */,
 				2DFF6A4D1B291FC000D3DF03 /* LPLabel.m in Sources */,
 				2DFF6A591B29201D00D3DF03 /* KSLabelHelper.m in Sources */,
 				2DFF6A851B292A4400D3DF03 /* ScrollViewFrameAccessor.m in Sources */,
+				2DFF6A8C1B292C8900D3DF03 /* CAAnimation+Blocks.m in Sources */,
 				2DFF6A471B291F1900D3DF03 /* KSCourseListCell.m in Sources */,
 				2DFF6A531B29200000D3DF03 /* KSStringUtil.m in Sources */,
 				2DFF6A411B291A2500D3DF03 /* KSHelper.m in Sources */,
