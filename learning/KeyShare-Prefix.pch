@@ -1,0 +1,13 @@
+//
+//  KeyShare-Prefix.pch
+//  KeyShare
+//
+//  Created by Singro on 12/1/14.
+//  Copyright (c) 2014 Singro. All rights reserved.
+//
+
+#import "KSHelper.h"
+#import "Macros.h"
+#import "ViewFrameAccessor.h"
+#import "Colors.h"
+#import "EXTScope.h"
